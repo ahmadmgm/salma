@@ -1,0 +1,64 @@
+2020-07-20T04:34:54+00:00 CRITICAL require_once(): Failed opening required 'recent-posts-widget-with-thumbnails.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php on line 2
+
+2020-07-20T06:02:42+00:00 CRITICAL require_once(): Failed opening required 'recent-posts-widget-with-thumbnails.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php on line 2
+
+2020-07-20T06:02:46+00:00 CRITICAL require_once(): Failed opening required 'recent-posts-widget-with-thumbnails.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php on line 2
+
+2020-07-20T06:03:42+00:00 CRITICAL require_once(): Failed opening required 'recent-posts-widget-with-thumbnails.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php on line 2
+
+2020-07-20T06:05:30+00:00 CRITICAL Uncaught Error: Class 'ailab_Widget_Attributes_Filter' not found in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(115): WP_Widget_Factory->register('ailab_Widget_At...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php(14): register_widget('ailab_Widget_At...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ailab_register_widgets('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/cla in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-07-20T06:05:31+00:00 CRITICAL Uncaught Error: Class 'ailab_Widget_Attributes_Filter' not found in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(115): WP_Widget_Factory->register('ailab_Widget_At...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php(14): register_widget('ailab_Widget_At...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ailab_register_widgets('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/cla in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-07-20T06:05:42+00:00 CRITICAL Uncaught Error: Class 'ailab_Widget_Attributes_Filter' not found in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(115): WP_Widget_Factory->register('ailab_Widget_At...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php(14): register_widget('ailab_Widget_At...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ailab_register_widgets('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/cla in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-07-20T06:07:42+00:00 CRITICAL Uncaught Error: Class 'ailab_Widget_Attributes_Filter' not found in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php:61
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(115): WP_Widget_Factory->register('ailab_Widget_At...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/widgets.php(14): register_widget('ailab_Widget_At...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ailab_register_widgets('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/widgets.php(1765): do_action('widgets_init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_widgets_init('')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/cla in /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-widget-factory.php on line 61
+
+2020-07-20T07:40:28+00:00 CRITICAL syntax error, unexpected '<' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 113
+
+2020-07-20T07:40:29+00:00 CRITICAL syntax error, unexpected '<' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 113
+
+2020-07-20T07:40:49+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 155
+
+2020-07-20T07:40:50+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 155
+
+2020-07-20T07:41:02+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 155
+
+2020-07-20T07:41:04+00:00 CRITICAL syntax error, unexpected 'endwhile' (T_ENDWHILE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widgets/recent-post.php on line 155
+

@@ -1,0 +1,9 @@
+2020-11-17T07:52:02+00:00 CRITICAL Uncaught Error: Class 'ElementorPro\Base\Base_Widget' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-price-table.php:18
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/plugin.php(80): require_once()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/plugin.php(118): ElementorHelloWorld\Plugin->include_widgets_files()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elem in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-price-table.php on line 18
+

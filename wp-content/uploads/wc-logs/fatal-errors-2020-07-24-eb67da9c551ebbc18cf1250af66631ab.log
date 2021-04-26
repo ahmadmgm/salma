@@ -1,0 +1,9 @@
+2020-07-24T09:21:16+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\JwsServices' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/plugin.php:146
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters('', Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/elements/column.php(1026): E in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/plugin.php on line 146
+

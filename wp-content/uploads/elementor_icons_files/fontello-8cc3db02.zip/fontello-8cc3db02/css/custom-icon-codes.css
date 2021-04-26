@@ -1,0 +1,5 @@
+
+.custom-iconleft-quote:before { content: '\e800'; } /* '' */
+.custom-iconplay-button:before { content: '\e801'; } /* '' */
+.custom-iconarrow-left:before { content: '\e803'; } /* '' */
+.custom-iconarrow-right-2:before { content: '\e805'; } /* '' */

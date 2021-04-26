@@ -1,0 +1,268 @@
+2020-06-29T09:26:49+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:26:58+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:27:09+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:27:12+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:27:26+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:28:10+00:00 CRITICAL require_once(): Failed opening required '/inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:28:17+00:00 CRITICAL require_once(): Failed opening required 'inc/TwitterAPP/TwitterOAuth.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 183
+
+2020-06-29T09:30:34+00:00 CRITICAL Uncaught Error: Class 'Config' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:15
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(183): require_once()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 15
+
+2020-06-29T09:32:49+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterOAuth' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:198
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/pub in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 198
+
+2020-06-29T09:33:28+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:198
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 198
+
+2020-06-29T09:37:06+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:193
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 193
+
+2020-06-29T09:38:06+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:193
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 193
+
+2020-06-29T09:39:18+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:193
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 193
+
+2020-06-29T09:41:16+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T09:42:33+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T09:45:23+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T09:47:08+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T09:48:12+00:00 CRITICAL Uncaught Error: Call to undefined function esc_ddfd() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPIExchange.php:2
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(183): require_once()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPIExchange.php on line 2
+
+2020-06-29T09:48:44+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T09:50:05+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:194
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 194
+
+2020-06-29T09:53:56+00:00 CRITICAL Uncaught Error: Class 'TwitterAPIExchange' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:194
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-cont in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 194
+
+2020-06-29T10:15:36+00:00 CRITICAL Object of class TwitterAPIExchange could not be converted to string in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T10:34:21+00:00 CRITICAL Uncaught Error: Call to undefined method TwitterAPIExchange::get_tweet_list() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:195
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/public_htm in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 195
+
+2020-06-29T10:37:04+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterTextFormatter' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:201
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/seve in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 201
+
+2020-06-29T10:38:52+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterTextFormatter' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:202
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/seve in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 202
+
+2020-06-29T10:43:42+00:00 CRITICAL Uncaught Error: Class 'TwitterOAuth' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:194
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/pl in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 194
+
+2020-06-29T10:47:00+00:00 CRITICAL Uncaught Error: Class 'TwitterOAuth' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:209
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/pl in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 209
+
+2020-06-29T10:48:28+00:00 CRITICAL Uncaught Error: Class 'TwitterOAuth' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:210
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/pl in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 210
+
+2020-06-29T10:49:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TwitterOAuth::__construct(), 1 passed in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 210 and at least 2 expected in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:41
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(210): TwitterOAuth->__construct(Array)
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwp in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 41
+
+2020-06-29T10:57:37+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function TwitterOAuth::__construct(), 1 passed in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 210 and at least 2 expected in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:41
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(210): TwitterOAuth->__construct(Array)
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwp in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 41
+
+2020-06-29T11:13:22+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\TwitterOAuth' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:214
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_element()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Element_Base->_print_content()
+#5 /home/sevenwpt/pub in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 214
+
+2020-06-29T11:13:44+00:00 CRITICAL Uncaught Error: Class 'HmacSha1' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:44
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(214): TwitterOAuth->__construct('DwidbScOnZ9uC4j...', 'mb1OIR1vM7jCUzX...', '413952215-ZlCTK...', 'ClmPWNy9nGOQs40...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_eleme in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 44
+
+2020-06-29T11:14:35+00:00 CRITICAL Uncaught Error: Class 'HmacSha1' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:44
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(214): TwitterOAuth->__construct('DwidbScOnZ9uC4j...', 'mb1OIR1vM7jCUzX...', '413952215-ZlCTK...', 'ClmPWNy9nGOQs40...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_eleme in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 44
+
+2020-06-29T11:15:06+00:00 CRITICAL Uncaught Error: Class 'HmacSha1' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:44
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(214): TwitterOAuth->__construct('DwidbScOnZ9uC4j...', 'mb1OIR1vM7jCUzX...', '413952215-ZlCTK...', 'ClmPWNy9nGOQs40...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_eleme in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 44
+
+2020-06-29T11:16:36+00:00 CRITICAL Uncaught Error: Class 'HmacSha1' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:44
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(214): TwitterOAuth->__construct('DwidbScOnZ9uC4j...', 'mb1OIR1vM7jCUzX...', '413952215-ZlCTK...', 'ClmPWNy9nGOQs40...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_eleme in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 44
+
+2020-06-29T11:17:07+00:00 CRITICAL Uncaught Error: Class 'HmacSha1' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php:44
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(214): TwitterOAuth->__construct('DwidbScOnZ9uC4j...', 'mb1OIR1vM7jCUzX...', '413952215-ZlCTK...', 'ClmPWNy9nGOQs40...')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(642): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(858): Elementor\Element_Base->print_eleme in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 44
+
+2020-06-29T11:17:34+00:00 CRITICAL Uncaught TypeError: Argument 1 passed to Request::signRequest() must be an instance of SignatureMethod, null given, called in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php on line 328 and defined in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/Request.php:227
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php(328): Request->signRequest(NULL, Object(Consumer), Object(Token))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php(304): TwitterOAuth->oAuthRequest('https://api.twi...', 'GET', Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/TwitterOAuth.php(178): TwitterOAuth->http('GET', 'https://api.twi...', 'statuses/user_t...', Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php(215): TwitterOA in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/TwitterAPP/Request.php on line 227
+

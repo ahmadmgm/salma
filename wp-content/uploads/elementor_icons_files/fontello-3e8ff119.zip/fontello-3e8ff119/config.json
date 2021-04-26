@@ -1,0 +1,24 @@
+{
+  "name": "play",
+  "css_prefix_text": "play-icon",
+  "css_use_suffix": false,
+  "hinting": true,
+  "units_per_em": 1000,
+  "ascent": 850,
+  "glyphs": [
+    {
+      "uid": "a4a8bf3b551b048b20e5a0ca68196333",
+      "css": "right-arrow",
+      "code": 59392,
+      "src": "custom_icons",
+      "selected": true,
+      "svg": {
+        "path": "M938.3 480L83 4.7C73.1-0.9 64.6-1.5 57.5 2.8 50.5 7.1 46.9 14.8 46.9 26V974C46.9 985.2 50.5 992.9 57.5 997.2 64.6 1001.5 73.1 1000.9 83 995.3L938.3 520C948.1 514.4 953.1 507.7 953.1 500 953.1 492.3 948.1 485.6 938.3 480Z",
+        "width": 1000
+      },
+      "search": [
+        "right-arrow"
+      ]
+    }
+  ]
+}

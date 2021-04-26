@@ -1,0 +1,25 @@
+2020-07-01T04:01:34+00:00 CRITICAL Uncaught Error: Call to undefined function equire_once() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/include.php:23
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): jwstheme_init('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(523): do_action('init')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-config.php(94): require_once('/home/sevenwpt/...')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-blog-header.php(13): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/index.php(17): require('/home/sevenwpt/...')
+#8 {main}
+  thrown in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/include.php on line 23
+
+2020-07-01T04:31:44+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php:121
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(2671): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(2879): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php on line 121
+

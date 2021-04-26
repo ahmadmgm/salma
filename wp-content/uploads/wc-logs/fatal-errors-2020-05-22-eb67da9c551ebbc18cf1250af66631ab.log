@@ -1,0 +1,8 @@
+2020-05-22T08:43:47+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/template-parts/footer/footer.php on line 14
+
+2020-05-22T08:43:57+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/template-parts/footer/footer.php on line 14
+
+2020-05-22T08:43:57+00:00 CRITICAL syntax error, unexpected ')', expecting ',' or ';' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/template-parts/footer/footer.php on line 14
+
+2020-05-22T08:56:19+00:00 CRITICAL syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 514
+

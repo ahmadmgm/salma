@@ -1,0 +1,124 @@
+2020-11-03T02:51:59+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 889
+
+2020-11-03T02:52:00+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 889
+
+2020-11-03T02:52:48+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 889
+
+2020-11-03T02:52:58+00:00 CRITICAL syntax error, unexpected '}', expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 889
+
+2020-11-03T02:53:15+00:00 CRITICAL syntax error, unexpected end of file in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 385
+
+2020-11-03T04:30:53+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:273
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 273
+
+2020-11-03T04:31:38+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:273
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 273
+
+2020-11-03T04:33:24+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:273
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 273
+
+2020-11-03T06:00:49+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:269
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 269
+
+2020-11-03T06:02:28+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Typography' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:561
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module)) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 561
+
+2020-11-03T06:02:52+00:00 CRITICAL Uncaught Error: Class 'Elementor\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:270
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/sevenwpt/public_html/g in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 270
+
+2020-11-03T06:05:32+00:00 CRITICAL Uncaught Error: Class 'Elementor\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:548
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5 /home/sevenwpt/public_html/g in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 548
+
+2020-11-03T06:05:53+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:548
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 548
+
+2020-11-03T06:06:20+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Colors' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:548
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#5  in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 548
+
+2020-11-03T06:07:22+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Typography' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:556
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module)) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 556
+
+2020-11-03T06:07:54+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Global_Typography' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:556
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1929): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(488): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(148): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module)) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 556
+
+2020-11-03T06:10:30+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:606
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/base/document.php(223): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 606
+
+2020-11-03T06:11:36+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php:606
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorHelloWorld\Widgets\JwsCustom\JWS_Icon_Box->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/base/document.php(223): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(323): Elementor\Core\Base\Document->render_element(Array)
+#3 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/common/modules/ajax/module.php(171): call_user_func(Array, Array, Object(Elementor\Core\Common\Modules\Ajax in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-icon-box.php on line 606
+
+2020-11-03T08:42:02+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/css_inline.php on line 93
+

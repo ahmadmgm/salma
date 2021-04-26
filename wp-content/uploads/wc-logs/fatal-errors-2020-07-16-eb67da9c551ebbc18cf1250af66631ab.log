@@ -1,0 +1,16 @@
+2020-07-16T02:17:22+00:00 CRITICAL require_once(): Failed opening required '/home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-button.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/plugin.php on line 108
+
+2020-07-16T08:20:18+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:21:12+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:21:17+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:22:09+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:22:43+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:23:28+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+
+2020-07-16T08:23:36+00:00 CRITICAL Allowed memory size of 1048576000 bytes exhausted (tried to allocate 528384 bytes) in /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/ailab-core/less.php on line 2956
+

@@ -1,0 +1,262 @@
+.jws-team {
+    .team-position {
+        display: block;
+    }
+
+    &.layout1 {
+        text-align: center;
+
+        .team-item {
+            padding: 15px;
+
+            .team-img {
+                overflow: hidden;
+                text-align: center;
+                position: relative;
+                max-width: 300px;
+                border-radius: 100%;
+                margin: auto;
+                pointer-events: none;
+                border: 8px solid #ffffff;
+                box-shadow: 0px 5px 24px 6px rgba(2, 2, 66, 0.08);
+
+                img {
+                     border-radius: 100%;
+                    pointer-events: none;
+                    .transform(scale(1));
+                    .transition(all 600ms cubic-bezier(0.22, 0.61, 0.36, 1));
+                }
+                @media (max-width: 1024px) {
+                        width: 200px;
+                        height: 200px;
+                }
+            }
+
+            &:hover {
+                img {
+                    .transform(scale(1.1));
+                }
+            }
+
+            @media (max-width: 767px) {
+                .team-name {
+                    margin-top: 15px;
+                }
+            }
+        }
+
+        .bg-team {
+            margin-top: -22px;
+            .transition(0.35s);
+            position: relative;
+
+            .open-icon-list {
+                position: absolute;
+                height: 50px;
+                width: 50px;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                top: 50%;
+                cursor: pointer;
+                z-index: 9999;
+                pointer-events: none;
+
+                &::before,
+                &::after {
+                    position: absolute;
+                    top: 50%;
+                    content: '';
+                    transform: translate(-50%, -50%);
+                    left: 50%;
+                    width: 15px;
+                    height: 2px;
+                    background: #fff;
+                    content: '';
+                    transition: all .4s ease-in-out;
+                }
+
+                &::before {
+                    transform: translate(-50%, -50%) rotate(0deg);
+                }
+
+                &::after {
+                    opacity: 1;
+                    transform: translate(-50%, -50%) rotate(-90deg);
+                }
+
+            }
+
+            .team-icon-list {
+                opacity: 0;
+                .transition(0.35s);
+            }
+
+            &::before {
+                content: "";
+                width: 50px;
+                height: 50px;
+                position: absolute;
+                transform: translate(-50%, -50%);
+                left: 50%;
+                top: 50%;
+                border-radius: 100px;
+
+                .transition(0.5s);
+            }
+
+            a {
+                margin: 0 10px;
+            }
+        }
+
+        .opened {
+
+            .open-icon-list {
+                &::before {
+                    transform: translate(-50%, -50%) rotate(180deg) scale(0.5);
+                    opacity: 0;
+                }
+
+                &::after {
+
+                    transform: translate(-50%, -50%) rotate(90deg) scale(0.5);
+                    opacity: 0;
+                }
+            }
+
+            .team-icon-list {
+                opacity: 1;
+            }
+
+            &::before {
+                width: 244px;
+            }
+        }
+
+        i {
+            color: #ffffff;
+            position: relative;
+            z-index: 1;
+            .transition(0.25s);
+        }
+
+        .team-name {
+            margin-top: 35px;
+                margin-bottom: 0;
+        }
+    }
+
+    &.layout2 {
+        .team-item {
+            text-align: center;
+
+            .team-name {
+                margin-top: 25px;
+                margin-bottom: 0;
+            }
+
+            .team-position {
+                margin-bottom: 35px;
+            }
+        }
+
+        @media (max-width: 359px) {
+            .team-item {
+                -ms-flex: 0 0 100%;
+                flex: 0 0 100%;
+                max-width: 100%;
+            }
+        }
+
+        .jws-team-inner-item {
+            text-align: center;
+            position: relative;
+            border-radius: 5px;
+            overflow: hidden;
+
+            .bg-team {
+                position: absolute;
+                width: 100%;
+                height: 100%;
+                top: 0;
+                transition: 0.35s;
+                opacity: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                justify-content: center;
+                align-item: center;
+                flex-direction: column;
+
+                i {
+                    font-size: 14px;
+                    color: #ffffff;
+                }
+
+                .team-icon-list {
+                    display: flex;
+                    flex-wrap: wrap;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    z-index: 1;
+                    align-items: center;
+
+                    i {
+                        height: 30px;
+                        width: 30px;
+                        display: inline-flex;
+                        flex-direction: column;
+                        justify-content: center;
+                        text-align: center;
+                        border-radius: 100%;
+                        background: #fe6187;
+
+                        transition: 0.3s;
+                        margin: 0 3px;
+                    }
+                }
+
+                .team-number-phone,
+                .team-email-address {
+                    z-index: 1;
+                    color: #ffffff;
+                    transition: 0.3s;
+                }
+
+                &:before {
+                    content: "";
+                    position: absolute;
+                    top: 0;
+                    z-index: 1;
+                    width: 100%;
+                    border-radius: 5px;
+                    pointer-events: none;
+                    height: 0%;
+                    background: rgba(30, 22, 102, 0.8);
+                    -webkit-transition: 0.35s;
+                    -o-transition: 0.35s;
+                    -ms-transition: 0.35s;
+                    -moz-transition: 0.35s;
+                    transition: 0.35s;
+                }
+            }
+
+            .team-img {
+                img {
+                    width: 100%;
+                }
+            }
+
+            &:hover .bg-team {
+                opacity: 1;
+                transition: 0.3s;
+
+                &::before {
+                    height: 100%;
+                }
+            }
+        }
+    }
+}

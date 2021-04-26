@@ -1,0 +1,9 @@
+2020-06-30T02:50:38+00:00 CRITICAL Uncaught Error: Undefined class constant 'TYPOGRAPHY' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php:477
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1950): ElementorHelloWorld\Widgets\JwsCustom\JWS_Twitter->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(291): Elementor\Widget_Base->get_stack()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(2005): Elementor\Controls_Stack->get_controls()
+#5 /home/sevenwpt/public_html/gene in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/Twitter.php on line 477
+

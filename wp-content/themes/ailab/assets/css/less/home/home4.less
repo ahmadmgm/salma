@@ -1,0 +1,171 @@
+.home4-text-hover {
+  &.elementor-widget-heading.elementor-widget-heading
+    h2.elementor-heading-title {
+    cursor: pointer;
+    .transition(0.3s);
+  }
+}
+.bg-text-popular {
+  .elementor-widget-container {
+    background-size: 200%;
+  }
+}
+
+.bt-ggradient-none {
+  &.elementor-element.elementor-widget-button a.elementor-button,
+  .elementor-widget-button .elementor-button {
+    background-image: none;
+    &::after {
+      content: none;
+    }
+    &::before {
+      content: none;
+    }
+  }
+}
+.custom-widget-tabs2 {
+  .elementor-active {
+    font-weight: 700 !important;
+  }
+}
+.custom-border-icon-box {
+  .elementor-icon {
+    border: 15px solid #d5ebff;
+  }
+}
+.custom-newsletter-home5 .wpcf7-form.invalid .wpcf7-response-output {
+    color: #ffffff;
+}
+.custom-newsletter-home5 {
+  form {
+    max-width: 960px;
+    margin: auto;
+    label {
+      margin-right: 0;
+      padding-right: 10px;
+    }
+    .label-first {
+      width: 33%;
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+    .label-last {
+      width: 45%;
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+        padding: 0;
+      }
+    }
+    button {
+      width: 22%;
+      background-image: none !important;
+      border: 2px solid #ffffff;
+      background: transparent;
+      padding: 10px;
+      &::after {
+        content: none;
+      }
+      &:hover {
+        transform: translateY(0);
+      }
+      @media only screen and (max-width: 767px) {
+        width: 100%;
+      }
+    }
+    div.wpcf7-validation-errors {
+      color: #fff;
+    }
+  }
+}
+.custom-newsletter-home5 .wpcf7-form input:not([type="submit"]) {
+  border: none;
+}
+// home 3
+.custom-img-home3 {
+  img {
+    height: 580px;
+    object-fit: cover;
+  }
+}
+
+.custom-bg-video-home3 {
+  margin-left: -40px;
+
+  &.elementor-widget-video .elementor-custom-embed-play::before {
+    background: rgba(204, 43, 94, 0.3);
+  }
+}
+// home6
+.custom-mobiapp-tab {
+  &.custom-pricing-tab {
+    .elementor-tabs {
+      .elementor-tabs-wrapper {
+        box-shadow: none;
+        background: #edf5ff;
+        margin-left: 0px;
+        .elementor-tab-title {
+          padding: 0px 21px;
+        }
+      }
+    }
+  }
+}
+.custom-border-button1 {
+  .custom-border-button {
+    &.elementor-element.elementor-widget-button a.elementor-button,
+    .elementor-widget-button .elementor-button {
+      &:hover {
+        background-image: none;
+      }
+    }
+  }
+}
+.slide-line-height {
+  h2 {
+    line-height: 60px !important;
+  }
+  p {
+    line-height: 26px !important;
+  }
+}
+.custom-font-icon {
+  i {
+    font-size: 26px;
+  }
+  .elementor-button-text {
+    align-items: center;
+  }
+}
+.custom-email-home6 {
+  form {
+    max-width: 715px;
+    margin: auto;
+    position: relative;
+    label {
+      width: 100%;
+      margin-right: 0px;
+      input.wpcf7-text {
+        height: 60px;
+        border: none;
+        box-shadow: 0 0 20px rgba(30, 22, 102, 0.05);
+      }
+    }
+    button {
+      &::after {
+        content: none;
+      }
+      &:hover {
+        transform: translateY(0);
+      }
+
+      @media only screen and (min-width: 768px) {
+        position: absolute;
+        top: 5px;
+        right: 8px;
+        width: 185px;
+      }
+    }
+  }
+}

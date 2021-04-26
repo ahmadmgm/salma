@@ -1,0 +1,46 @@
+.jws-button-custom {
+  .elementor-button {
+    padding: 11px 57px;
+    border-radius: 30px;
+    &.no-button-shadow {
+      &::after {
+        content: none;
+      }
+    }
+  }
+}
+
+.jws-button-custom {
+  .text-color-gradient {
+    font-size: 16px;
+    line-height: 30px;
+    background: transparent;
+    padding: 0;
+    &:hover {
+      
+       .transform(none);
+       .elementor-button-text {
+         background-position: right center;
+       }
+    }
+    &::before {
+      content: none;
+    }
+    &::after {
+      content: none;
+    }
+    
+    i {
+      .transition(0.3s);
+      .text-color-gradient();
+      &:hover {
+        box-shadow: none;
+      }
+    }
+    i {
+      &:before {
+        vertical-align: middle;
+      }
+    }
+  }
+}

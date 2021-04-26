@@ -1,0 +1,153 @@
+.newsletter-home2-footer{
+    &.newsletter-home2 .wpcf7-form button{
+        &::before{
+            content: "\f1d8";
+            font-weight: 900;
+            color: #fff;
+            font-family: "Font Awesome 5 Free";
+            right: 8px;
+            top: 0;
+            z-index: 1;
+            width: 70px;
+            height: 40px;
+            text-align: center;
+            padding-top: 2px;
+            font-size: 14px;
+            border-radius: 100px;
+            background-size: 200%;
+            .display-flex();
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+    }
+     &.newsletter-home2 .wpcf7-form input {
+        padding-right: 80px;
+    }
+    &.newsletter-home2 .wpcf7-form button{
+        width: 70px;
+        height: 40px;
+            margin: 0;
+            top: 50%;
+        .transform(translateY(-50%));
+        font-size:0;
+        .wpcf7-submit{
+        
+        color: transparent;
+        font-size: 0;
+        z-index: 2;
+        background: none;
+        
+        }
+    }
+}
+.custom-icon-footer1{
+    &.custom-icon-footer3.custom-icon-footer4.elementor-widget .elementor-icon-list-icon i{
+        background: #171b4c;
+        &:hover{
+            background-image: none;
+        }
+    }
+}
+//footer home 2
+.icon-box-color-white{
+    .elementor-icon-box-content{
+        .display-flex();
+        flex-direction: column-reverse;
+        .elementor-icon-box-description{
+            margin-top: -5px;
+        }
+    }
+}
+.post-footer{
+    .section-blog .elementor-post .m-15{
+        margin: 0;
+        margin-left: 15px;
+        padding: 0 15px;
+    }   
+    .section-blog .elementor-post .post-title-link .post-title{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 18px;
+        display: block;
+        margin-bottom: 0;
+    }
+    time.post-time span{
+        font-size: 14px;
+        line-height: 22px;
+        color: #6699ff;
+    }
+    .section-blog.post-archive .elementor-post{
+        padding: 7px 0;
+    }
+    .section-blog .elementor-post .post-info{
+        margin-top: 0px;
+    }
+    .m-15:before{
+        content: "";
+        position: absolute;
+        width: 4px;
+        height: 4px;
+        background: #ffffff;
+        left: 15px;
+        top: 13px;
+    }
+}
+.icon-footer-home2{
+    &.elementor-widget .elementor-icon-list-item a{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        span{
+            i{
+                width: 40px;
+                height: 40px;
+                .display-flex();
+                justify-content: center;
+                flex-direction: column;
+                align-items: center; 
+                border-radius: 100%;
+                font: normal normal normal 12px/1 FontAwesome ;
+                border: 1px solid #959595;
+                .transition(0.35s);
+            }
+        }
+        &:hover{
+            i{
+                background-size: 200%;
+                border: none;
+            }
+        }
+        
+    }
+}
+// home 3
+.custom-icon-footer3{
+    &.custom-icon-footer4{
+        &.elementor-widget .elementor-icon-list-icon i{
+            background: #d1e2f5;
+            font-size: 12px;
+            &:hover{
+                background-image: linear-gradient(to right, #fa897d 0%, #fe5f88 51%, #fa897d 100%);
+            }
+        }
+    }
+    &.elementor-widget .elementor-icon-list-icon i{
+        width: 40px;
+        height: 40px;
+        border-radius: 100%;
+        background-size: 200%;
+        .display-flex();
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+        .transition(0.2s);
+        &:hover{
+            background-image: linear-gradient(to right, #cc2b5e 0%, #753a88 51%, #cc2b5e 100%);
+        }
+    }
+}
+// home 5
+.width-200 img{
+    width: 200px;
+}

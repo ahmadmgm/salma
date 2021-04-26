@@ -1,0 +1,4 @@
+2020-06-18T09:43:55+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 95
+
+2020-06-18T09:43:55+00:00 CRITICAL syntax error, unexpected ''.elementor-widget-accordion .' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 571
+

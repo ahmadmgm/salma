@@ -1,0 +1,29 @@
+2020-06-02T01:47:17+00:00 CRITICAL syntax error, unexpected ''' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 533
+
+2020-06-02T02:35:19+00:00 CRITICAL Uncaught Error: Call to undefined function cs_get_option() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php:157
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/single-product/product-image.php(52): product_thumbnails()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/p in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php on line 157
+
+2020-06-02T02:36:28+00:00 CRITICAL Uncaught Error: Call to undefined function cs_get_option() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php:157
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/single-product/product-image.php(52): product_thumbnails()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/p in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php on line 157
+
+2020-06-02T02:42:04+00:00 CRITICAL Uncaught Error: Call to undefined function cs_get_option() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php:158
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/single-product/product-image.php(52): product_thumbnails()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(251): include('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/p in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/woocommerce/wc-template-function.php on line 158
+

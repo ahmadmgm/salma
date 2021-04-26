@@ -1,0 +1,214 @@
+.woocommerce {
+    .woocommerce-MyAccount-navigation {
+        ul {
+            list-style-type: none;
+            padding: 0;
+            .woocommerce-MyAccount-navigation-link {
+                text-transform: uppercase;
+                border: 1px solid #dedde8;
+                border-bottom: 0;
+                &:hover {
+                    color: #ffffff;
+                }
+                &.is-active {
+                    color: #ffffff;
+                }
+                a {
+                padding: 14px 20px;
+                display: block;
+                font-size: 12px;
+                text-transform: uppercase;
+                text-decoration: none;
+                -webkit-transition: 0.25s all;
+                -o-transition: 0.25s all;
+                -ms-transition: 0.25s all;
+                -moz-transition: 0.25s all;
+                transition: 0.25s all;
+                font-weight: 700;
+                
+               
+            }
+                
+                &:last-child {
+                    border-bottom: 1px solid #dedde8;
+                }
+            }
+        }
+    }
+    .woocommerce-MyAccount-content {
+        .woocommerce-Address {
+            flex: 0 0 50%;
+            max-width: 50%;
+        }
+        .woocommerce-Price-amount, .woocommerce-Price-currencySymbol {
+            font-size: 14px;
+        }
+    }
+    .woocommerce-EditAccountForm {
+        label {
+            font-weight: 700;
+        }
+        .form-row {
+            margin-bottom: 25px;
+            display: block;
+        }
+        .input-text {
+            width: 100%;
+            border: 1px solid #a8a8a8;
+            height: 45px;
+            padding-left: 15px;
+        }
+    }
+    .woocommerce-Button.button {
+        border-radius: 30px;
+        min-height: 50px;
+        line-height: 50px;
+        padding: 0 37px;
+        float: right;
+        &:hover {
+            background-position: right center;
+            -webkit-transition: 0.7s;
+            -o-transition: 0.7s;
+            -ms-transition: 0.7s;
+            -moz-transition: 0.7s;
+            transition: 0.7s;
+        }
+    }
+}
+
+.woocommerce table.my_account_orders .button {
+    border-radius: 30px;
+    .transition(0.3s);
+    &:hover {
+        background-position: right;
+    }
+}
+.woocommerce-column--billing-address, .woocommerce-column--shipping-address {
+    flex: 0 0 50%;
+            max-width: 100%;
+}
+
+.woocommerce table.woocommerce-MyAccount-orders tr:nth-child(2n){
+    background: #f9fcff;
+}
+
+@media (min-width:769px) {
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation {
+        float: left;
+        width: 20%;
+    }
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content {
+        float: right;
+        width: 78%;
+    } 
+}
+@media  (min-width:769px) {
+.woocommerce table.woocommerce-MyAccount-orders tr:first-child td {
+    border-top: 1px solid rgba(0,0,0,.1);
+}
+}
+@media (max-width:768px) and (min-width:600px) {
+    
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content, .woocommerce-page.woocommerce-account .woocommerce-MyAccount-navigation {
+        
+    float: left;
+    width: 30%;
+    }
+    .woocommerce-page.woocommerce-account .woocommerce-MyAccount-content {
+        float: left;
+        width: 68%;
+        padding-left: 30px;
+    }
+}
+.woocommerce table.woocommerce-MyAccount-orders tr td::before {
+    font-size: 14px;
+}
+.woocommerce table.woocommerce-MyAccount-orders tr{
+    padding: 20px 0;
+}
+.woocommerce table.woocommerce-MyAccount-orders thead {
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.woocommerce table.woocommerce-MyAccount-orders tbody td {
+    border: none;
+}
+.woocommerce table.woocommerce-MyAccount-orders td, .woocommerce table.woocommerce-MyAccount-orders th {
+    font-size: 14px;
+}
+@media  (max-width:768px) {
+    .woocommerce table.shop_table_responsive tr:nth-child(2n) td, .woocommerce-page table.shop_table_responsive tr:nth-child(2n) td {
+        background-color: transparent;
+    }
+}
+
+
+
+.custom-divider .elementor-widget-container::before,
+.custom-bg-bt-revolution::before,
+.icon-gradient-bacground-hover .elementor-social-icon:hover::before,
+.woocommerce #respond input#submit.alt::before, .woocommerce a.button.alt::before, .woocommerce button.button.alt, .woocommerce input.button.alt::before,
+.elementor-widget-wp-widget-woocommerce_price_filter .price_slider_wrapper .price_slider .ui-slider-range::before,
+.elementor-widget-wp-widget-woocommerce_price_filter .price_slider_wrapper .price_slider .ui-slider-handle::before,
+.jws-product-shop .product-archive .yith-wcwl-add-to-wishlist .yith-wcwl-add-button a:hover::after, .jws-product-shop .product-archive .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistaddedbrowse:hover::after, .jws-product-shop .product-archive .yith-wcwl-add-to-wishlist .yith-wcwl-wishlistexistsbrowse:hover::after, .jws-product-shop .product-archive .product_type_simple:hover:before, .jws-product-shop .product-archive .product-eyes a:hover::after,
+.nxl-pagination .nxl_pagi_inner ul li .item.current::before,
+.nxl-pagination .nxl_pagi_inner .item:hover::before,    
+.bg-text-popular .elementor-widget-container::before,
+.jws-testimonial.layout-testimonial2 .testimonial-listing .slide-content-testimonial .slide-icon::before,
+.custom-border-button.elementor-element.elementor-widget-button a.elementor-button::before, 
+.custom-border-button .elementor-widget-button .elementor-button:hover::before,
+.custom-pricing-tab .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active::before,      
+.layout_layout3.jws_tab_wrap .tab_nav li.current a::before,
+.layout_layout3.jws_tab_wrap .tab_nav li a:after::before,
+.jws-team .bg-team::before::before,
+.jws_tab_wrap.layout_layout1 .tab_nav li.current a::before,
+.comments-area .form-submit .submit:before::before,
+.jws-price-table:hover .jws-price-table__footer .jws-price-table__button::before,
+.comments-area ol li .comment-body .comment-info .comment-header-info .reply:hover::before,
+.jws-price-table.active .jws-price-table__footer .jws-price-table__button::before,
+.custom-pricing-tab-home3.custom-pricing-tab .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title.elementor-active::before,
+.custom-pricing-tab-home3.custom-pricing-tab .elementor-tabs .elementor-tabs-wrapper .elementor-tab-title:hover::before,
+.custom-border-button1.custom-border-button.elementor-element.elementor-widget-button a.elementor-button:hover::before, .custom-border-button1.custom-border-button .elementor-widget-button .elementor-button:hover:before,
+.elementor-element.elementor-widget-progress .elementor-progress-wrapper .elementor-progress-bar::before,
+ .jws_account .no_user .jws_text::before, 
+ .jws-product-shop .product-archive .text-center .cart-hover .product_type_grouped:hover:before,
+ .jws-product-shop .product-archive .text-center .cart-hover .product_type_external:hover:before,
+ .jws-price-table .jws-price-table__ribbon .jws-price-table__ribbon-inner:before,
+.elementor-element.elementor-widget-button a.elementor-button, .elementor-widget-button .elementor-button:before,
+ .woocommerce .cart input.button:before,
+.jws-testimonial.layout-testimonial3 .testimonial-listing .slide-content-testimonial .slide-content-testimonial__box-shadow::before,
+.jws_tab_wrap.layout_layout4 .tab_nav_wrap .tab_nav li.current::before::before,
+.woocommerce #review_form #respond .form-submit #submit::before,
+#jws-popup-login .submit .button:before,
+.elementor-menu-cart__footer-buttons .elementor-button--view-cart::before,
+ .woocommerce .cart input.button::before,
+ .jws_account .account-menu-dropdown a::before,
+ .woocommerce .woocommerce-MyAccount-content .woocommerce-Button.button::before,
+ .jws_account .account-menu-dropdown a::before,
+ .woocommerce a.button::before,
+ .woocommerce a.button:hover::before,
+.jws_video_popup .jws_video_popup_inner a .gradient_background_color::before {
+    position: absolute;
+    width: 100%;
+    left: 0;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+    content: '';
+}
+
+.elementor-widget-button .elementor-button:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    left: 0;
+    height: 100%;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+    transition: all .4s;
+   
+}

@@ -1,0 +1,43 @@
+2020-05-29T05:02:04+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\JwsCustomReview2' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php:151
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/elements/column.php(1 in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php on line 151
+
+2020-05-29T05:03:11+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\JwsCustomReview2' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php:151
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/elements/column.php(1 in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php on line 151
+
+2020-05-29T05:03:24+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\JwsCustomReview2' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php:151
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/elements/column.php(1 in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php on line 151
+
+2020-05-29T05:13:56+00:00 CRITICAL require_once(): Failed opening required '/testimonial/layout-testimonial0php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-testimonial/jws-testimonial.php on line 2263
+
+2020-05-29T05:14:21+00:00 CRITICAL require_once(): Failed opening required '/testimonial/layout-testimonial0.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-testimonial/jws-testimonial.php on line 2263
+
+2020-05-29T07:21:04+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php:121
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(2671): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(2879): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php on line 121
+

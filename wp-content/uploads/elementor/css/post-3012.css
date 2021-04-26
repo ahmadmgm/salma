@@ -1,0 +1,18 @@
+.elementor-3012 .elementor-element.elementor-element-bba3c5f > .elementor-container{min-height:300px;}.elementor-3012 .elementor-element.elementor-element-bba3c5f:not(.elementor-motion-effects-element-type-background), .elementor-3012 .elementor-element.elementor-element-bba3c5f > .elementor-motion-effects-container > .elementor-motion-effects-layer{background-image:url("http://localhost/salma/wp-content/uploads/2020/02/bg3-breadcrumbs.jpg");background-position:center center;background-repeat:no-repeat;background-size:cover;}.elementor-3012 .elementor-element.elementor-element-bba3c5f{transition:background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;padding:0px 0px 0px 0px;}.elementor-3012 .elementor-element.elementor-element-bba3c5f > .elementor-background-overlay{transition:background 0.3s, border-radius 0.3s, opacity 0.3s;}.elementor-3012 .elementor-element.elementor-element-2bb021e .jws-breadcrumbs{margin-left:-12px;}.elementor-3012 .elementor-element.elementor-element-2bb021e .jws-breadcrumbs__item{margin-left:12px;padding:0px 0px 0px 0px;}.elementor-3012 .elementor-element.elementor-element-2bb021e .jws-breadcrumbs__separator{margin-left:12px;font-size:5px;}.elementor-3012 .elementor-element.elementor-element-ea22396{overflow:hidden;padding:80px 0px 0px 0px;}.elementor-3012 .elementor-element.elementor-element-61b0bbe > .elementor-element-populated{padding:0px 25px 0px 15px;}.elementor-3012 .elementor-element.elementor-element-6526216 > .elementor-widget-container{margin:40px 0px 40px 0px;}.elementor-3012 .elementor-element.elementor-element-52ac0e4 .bg-fff:hover img{opacity:1;}.elementor-3012 .elementor-element.elementor-element-52ac0e4 > .elementor-widget-container{margin:40px 0px 0px 0px;}.elementor-3012 .elementor-element.elementor-element-1bcb4b2 > .elementor-element-populated{padding:0px 15px 0px 15px;}.elementor-3012 .elementor-element.elementor-element-05b7a7b .bg-fff{background-color:#23A455;}.elementor-3012 .elementor-element.elementor-element-05b7a7b .bg-fff:hover img{opacity:1;}.elementor-3012 .elementor-element.elementor-element-05b7a7b .woocommerce-loop-product__title{color:#601313;}@media(min-width:768px){.elementor-3012 .elementor-element.elementor-element-61b0bbe{width:24.665%;}.elementor-3012 .elementor-element.elementor-element-1bcb4b2{width:75%;}}@media(max-width:1024px) and (min-width:768px){.elementor-3012 .elementor-element.elementor-element-61b0bbe{width:30%;}.elementor-3012 .elementor-element.elementor-element-1bcb4b2{width:65%;}}@media(max-width:1024px){.elementor-3012 .elementor-element.elementor-element-ea22396{padding:75px 0px 0px 0px;}}@media(max-width:767px){.elementor-3012 .elementor-element.elementor-element-61b0bbe > .elementor-element-populated{padding:75px 15px 0px 15px;}.elementor-3012 .elementor-element.elementor-element-1bcb4b2 > .elementor-element-populated{padding:15px 15px 15px 15px;}.elementor-3012 .elementor-element.elementor-element-05b7a7b > .elementor-widget-container{margin:0px 8px 0px 8px;}}/* Start custom CSS for column, class: .elementor-element-61b0bbe */@media (max-width: 991px) and (min-width: 768px) {
+.elementor-3012 .elementor-element.elementor-element-61b0bbe {
+    width: 100%;
+    margin-top: 50px;
+}
+}/* End custom CSS */
+/* Start custom CSS for column, class: .elementor-element-1bcb4b2 */@media (max-width: 991px) and (min-width: 768px) {
+.elementor-3012 .elementor-element.elementor-element-1bcb4b2{
+    width: 100%;
+}
+    
+}/* End custom CSS */
+/* Start custom CSS for section, class: .elementor-element-ea22396 */@media (max-width: 991px) and (min-width: 768px){
+.elementor-3012 .elementor-element.elementor-element-ea22396 .elementor-row{
+        flex-direction: column-reverse;
+}
+    
+}/* End custom CSS */

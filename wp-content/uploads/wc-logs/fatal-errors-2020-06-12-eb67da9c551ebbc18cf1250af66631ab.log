@@ -1,0 +1,14 @@
+2020-06-12T06:54:59+00:00 CRITICAL syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-account.php on line 384
+
+2020-06-12T07:34:17+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1786
+
+2020-06-12T07:34:31+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1786
+
+2020-06-12T07:34:36+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1786
+
+2020-06-12T07:38:55+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1782
+
+2020-06-12T07:38:57+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1782
+
+2020-06-12T07:39:48+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws_off_canvas.php on line 1782
+

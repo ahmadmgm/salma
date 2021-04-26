@@ -1,0 +1,70 @@
+2020-06-09T01:45:21+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-slide-post.php on line 1306
+
+2020-06-09T02:20:03+00:00 CRITICAL syntax error, unexpected 'var' (T_VAR) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-slide-post.php on line 1307
+
+2020-06-09T02:37:07+00:00 CRITICAL syntax error, unexpected ';', expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-post-archive.php on line 1278
+
+2020-06-09T06:51:21+00:00 CRITICAL syntax error, unexpected ''.elementor-widget-heading.ele' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 418
+
+2020-06-09T06:57:47+00:00 CRITICAL syntax error, unexpected end of file in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 251
+
+2020-06-09T06:58:15+00:00 CRITICAL syntax error, unexpected ''font' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 269
+
+2020-06-09T06:58:18+00:00 CRITICAL syntax error, unexpected ''font' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 269
+
+2020-06-09T06:59:07+00:00 CRITICAL syntax error, unexpected ''f' (T_ENCAPSED_AND_WHITESPACE), expecting ']' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 58
+
+2020-06-09T06:59:11+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 95
+
+2020-06-09T06:59:26+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 95
+
+2020-06-09T06:59:30+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 95
+
+2020-06-09T07:00:15+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 78
+
+2020-06-09T07:00:19+00:00 CRITICAL syntax error, unexpected end of file, expecting ')' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 78
+
+2020-06-09T09:47:35+00:00 CRITICAL Uncaught Error: Call to undefined function jws_get_lost_password_url() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php:35
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/jws-login-form.php(379): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Login_form->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/base/document.php(218): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(297): Elementor\Core\Base\Document->render_element(Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(323): ElementorPro\Modules\ThemeB in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php on line 35
+
+2020-06-09T10:00:39+00:00 CRITICAL Uncaught Error: Call to undefined function jws_get_lost_password_url() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php:35
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/jws-login-form.php(379): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Login_form->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(668): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(884): Elementor\Element_Base->print_element()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php on line 35
+
+2020-06-09T10:00:42+00:00 CRITICAL Uncaught Error: Call to undefined function jws_get_lost_password_url() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php:35
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/jws-login-form.php(379): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Login_form->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(668): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(884): Elementor\Element_Base->print_element()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php on line 35
+
+2020-06-09T10:01:49+00:00 CRITICAL Uncaught Error: Call to undefined function jws_get_lost_password_url() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php:35
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/jws-login-form.php(379): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Login_form->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(668): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(884): Elementor\Element_Base->print_element()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php on line 35
+
+2020-06-09T10:01:55+00:00 CRITICAL Uncaught Error: Call to undefined function jws_get_lost_password_url() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php:35
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/jws-login-form.php(379): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Login_form->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(668): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(884): Elementor\Element_Base->print_element()
+#5 /home/sevenw in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-login-form/content.php on line 35
+

@@ -1,0 +1,18 @@
+2020-10-27T09:29:25+00:00 CRITICAL Uncaught Error: Call to undefined function is_blog() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php:898
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/single-case_study.php(23): jws_title_bar()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/template-loader.php(106): include('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-blog-header.php(19): require_once('/home/sevenwpt/...')
+#3 /home/sevenwpt/public_html/general02/ailab/index.php(17): require('/home/sevenwpt/...')
+#4 {main}
+  thrown in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 898
+
+2020-10-27T09:29:26+00:00 CRITICAL Uncaught Error: Call to undefined function is_blog() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php:898
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/single-services.php(23): jws_title_bar()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/template-loader.php(106): include('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-blog-header.php(19): require_once('/home/sevenwpt/...')
+#3 /home/sevenwpt/public_html/general02/ailab/index.php(17): require('/home/sevenwpt/...')
+#4 {main}
+  thrown in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/template-functions.php on line 898
+

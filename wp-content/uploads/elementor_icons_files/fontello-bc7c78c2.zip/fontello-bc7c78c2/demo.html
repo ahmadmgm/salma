@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html>
+  <head><!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+    <meta charset="UTF-8"><style>/*
+ * Bootstrap v2.2.1
+ *
+ * Copyright 2012 Twitter, Inc
+ * Licensed under the Apache License v2.0
+ * http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Designed and built with all the love in the world @twitter by @mdo and @fat.
+ */
+.clearfix {
+  *zoom: 1;
+}
+.clearfix:before,
+.clearfix:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.clearfix:after {
+  clear: both;
+}
+html {
+  font-size: 100%;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+a:focus {
+  outline: thin dotted #333;
+  outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px;
+}
+a:hover,
+a:active {
+  outline: 0;
+}
+button,
+input,
+select,
+textarea {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+button,
+input {
+  *overflow: visible;
+  line-height: normal;
+}
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+body {
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+a:hover {
+  color: #005580;
+  text-decoration: underline;
+}
+.row {
+  margin-left: -20px;
+  *zoom: 1;
+}
+.row:before,
+.row:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.row:after {
+  clear: both;
+}
+[class*="span"] {
+  float: left;
+  min-height: 1px;
+  margin-left: 20px;
+}
+.container,
+.navbar-static-top .container,
+.navbar-fixed-top .container,
+.navbar-fixed-bottom .container {
+  width: 940px;
+}
+.span12 {
+  width: 940px;
+}
+.span11 {
+  width: 860px;
+}
+.span10 {
+  width: 780px;
+}
+.span9 {
+  width: 700px;
+}
+.span8 {
+  width: 620px;
+}
+.span7 {
+  width: 540px;
+}
+.span6 {
+  width: 460px;
+}
+.span5 {
+  width: 380px;
+}
+.span4 {
+  width: 300px;
+}
+.span3 {
+  width: 220px;
+}
+.span2 {
+  width: 140px;
+}
+.span1 {
+  width: 60px;
+}
+[class*="span"].pull-right,
+.row-fluid [class*="span"].pull-right {
+  float: right;
+}
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  *zoom: 1;
+}
+.container:before,
+.container:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.container:after {
+  clear: both;
+}
+p {
+  margin: 0 0 10px;
+}
+.lead {
+  margin-bottom: 20px;
+  font-size: 21px;
+  font-weight: 200;
+  line-height: 30px;
+}
+small {
+  font-size: 85%;
+}
+h1 {
+  margin: 10px 0;
+  font-family: inherit;
+  font-weight: bold;
+  line-height: 20px;
+  color: inherit;
+  text-rendering: optimizelegibility;
+}
+h1 small {
+  font-weight: normal;
+  line-height: 1;
+  color: #999;
+}
+h1 {
+  line-height: 40px;
+}
+h1 {
+  font-size: 38.5px;
+}
+h1 small {
+  font-size: 24.5px;
+}
+body {
+  margin-top: 90px;
+}
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  margin-left: -480px;
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+  padding-top: 10px;
+  z-index: 10;
+}
+.footer {
+  color: #ddd;
+  font-size: 12px;
+  text-align: center;
+  margin-top: 20px;
+}
+.footer a {
+  color: #ccc;
+  text-decoration: underline;
+}
+.the-icons {
+  font-size: 14px;
+  line-height: 24px;
+}
+.switch {
+  position: absolute;
+  right: 0;
+  bottom: 10px;
+  color: #666;
+}
+.switch input {
+  margin-right: 0.3em;
+}
+.codesOn .i-name {
+  display: none;
+}
+.codesOn .i-code {
+  display: inline;
+}
+.i-code {
+  display: none;
+}
+@font-face {
+      font-family: 'linearicons-free';
+      src: url('./font/linearicons-free.eot?63031348');
+      src: url('./font/linearicons-free.eot?63031348#iefix') format('embedded-opentype'),
+           url('./font/linearicons-free.woff?63031348') format('woff'),
+           url('./font/linearicons-free.ttf?63031348') format('truetype'),
+           url('./font/linearicons-free.svg?63031348#linearicons-free') format('svg');
+      font-weight: normal;
+      font-style: normal;
+    }
+     
+     
+    .demo-icon
+    {
+      font-family: "linearicons-free";
+      font-style: normal;
+      font-weight: normal;
+      speak: none;
+     
+      display: inline-block;
+      text-decoration: inherit;
+      width: 1em;
+      margin-right: .2em;
+      text-align: center;
+      /* opacity: .8; */
+     
+      /* For safety - reset parent styles, that can break glyph codes*/
+      font-variant: normal;
+      text-transform: none;
+     
+      /* fix buttons height, for twitter bootstrap */
+      line-height: 1em;
+     
+      /* Animation center compensation - margins should be symmetric */
+      /* remove if not needed */
+      margin-left: .2em;
+     
+      /* You can be more comfortable with increased icons size */
+      /* font-size: 120%; */
+     
+      /* Font smoothing. That was taken from TWBS */
+      -webkit-font-smoothing: antialiased;
+      -moz-osx-font-smoothing: grayscale;
+     
+      /* Uncomment for 3D effect */
+      /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+    }
+     </style>
+    <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
+    <script>
+      function toggleCodes(on) {
+        var obj = document.getElementById('icons');
+      
+        if (on) {
+          obj.className += ' codesOn';
+        } else {
+          obj.className = obj.className.replace(' codesOn', '');
+        }
+      }
+      
+    </script>
+  </head>
+  <body>
+    <div class="container header">
+      <h1>linearicons-free <small>font demo</small></h1>
+      <label class="switch">
+        <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
+      </label>
+    </div>
+    <div class="container" id="icons">
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe800"><i class="demo-icon lnr-alarm">&#xe800;</i> <span class="i-name">lnr-alarm</span><span class="i-code">0xe800</span></div>
+        <div class="the-icons span3" title="Code: 0xe801"><i class="demo-icon lnr-apartment">&#xe801;</i> <span class="i-name">lnr-apartment</span><span class="i-code">0xe801</span></div>
+        <div class="the-icons span3" title="Code: 0xe802"><i class="demo-icon lnr-arrow-down">&#xe802;</i> <span class="i-name">lnr-arrow-down</span><span class="i-code">0xe802</span></div>
+        <div class="the-icons span3" title="Code: 0xe803"><i class="demo-icon lnr-arrow-down-circle">&#xe803;</i> <span class="i-name">lnr-arrow-down-circle</span><span class="i-code">0xe803</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe804"><i class="demo-icon lnr-arrow-left">&#xe804;</i> <span class="i-name">lnr-arrow-left</span><span class="i-code">0xe804</span></div>
+        <div class="the-icons span3" title="Code: 0xe805"><i class="demo-icon lnr-arrow-left-circle">&#xe805;</i> <span class="i-name">lnr-arrow-left-circle</span><span class="i-code">0xe805</span></div>
+        <div class="the-icons span3" title="Code: 0xe806"><i class="demo-icon lnr-arrow-right">&#xe806;</i> <span class="i-name">lnr-arrow-right</span><span class="i-code">0xe806</span></div>
+        <div class="the-icons span3" title="Code: 0xe807"><i class="demo-icon lnr-arrow-right-circle">&#xe807;</i> <span class="i-name">lnr-arrow-right-circle</span><span class="i-code">0xe807</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe808"><i class="demo-icon lnr-arrow-up">&#xe808;</i> <span class="i-name">lnr-arrow-up</span><span class="i-code">0xe808</span></div>
+        <div class="the-icons span3" title="Code: 0xe809"><i class="demo-icon lnr-arrow-up-circle">&#xe809;</i> <span class="i-name">lnr-arrow-up-circle</span><span class="i-code">0xe809</span></div>
+        <div class="the-icons span3" title="Code: 0xe80a"><i class="demo-icon lnr-bicycle">&#xe80a;</i> <span class="i-name">lnr-bicycle</span><span class="i-code">0xe80a</span></div>
+        <div class="the-icons span3" title="Code: 0xe80b"><i class="demo-icon lnr-bold">&#xe80b;</i> <span class="i-name">lnr-bold</span><span class="i-code">0xe80b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe80c"><i class="demo-icon lnr-book">&#xe80c;</i> <span class="i-name">lnr-book</span><span class="i-code">0xe80c</span></div>
+        <div class="the-icons span3" title="Code: 0xe80d"><i class="demo-icon lnr-bookmark">&#xe80d;</i> <span class="i-name">lnr-bookmark</span><span class="i-code">0xe80d</span></div>
+        <div class="the-icons span3" title="Code: 0xe80e"><i class="demo-icon lnr-briefcase">&#xe80e;</i> <span class="i-name">lnr-briefcase</span><span class="i-code">0xe80e</span></div>
+        <div class="the-icons span3" title="Code: 0xe80f"><i class="demo-icon lnr-bubble">&#xe80f;</i> <span class="i-name">lnr-bubble</span><span class="i-code">0xe80f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe810"><i class="demo-icon lnr-bug">&#xe810;</i> <span class="i-name">lnr-bug</span><span class="i-code">0xe810</span></div>
+        <div class="the-icons span3" title="Code: 0xe811"><i class="demo-icon lnr-bullhorn">&#xe811;</i> <span class="i-name">lnr-bullhorn</span><span class="i-code">0xe811</span></div>
+        <div class="the-icons span3" title="Code: 0xe812"><i class="demo-icon lnr-bus">&#xe812;</i> <span class="i-name">lnr-bus</span><span class="i-code">0xe812</span></div>
+        <div class="the-icons span3" title="Code: 0xe813"><i class="demo-icon lnr-calendar-full">&#xe813;</i> <span class="i-name">lnr-calendar-full</span><span class="i-code">0xe813</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe814"><i class="demo-icon lnr-camera">&#xe814;</i> <span class="i-name">lnr-camera</span><span class="i-code">0xe814</span></div>
+        <div class="the-icons span3" title="Code: 0xe815"><i class="demo-icon lnr-camera-video">&#xe815;</i> <span class="i-name">lnr-camera-video</span><span class="i-code">0xe815</span></div>
+        <div class="the-icons span3" title="Code: 0xe816"><i class="demo-icon lnr-car">&#xe816;</i> <span class="i-name">lnr-car</span><span class="i-code">0xe816</span></div>
+        <div class="the-icons span3" title="Code: 0xe817"><i class="demo-icon lnr-cart">&#xe817;</i> <span class="i-name">lnr-cart</span><span class="i-code">0xe817</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe818"><i class="demo-icon lnr-chart-bars">&#xe818;</i> <span class="i-name">lnr-chart-bars</span><span class="i-code">0xe818</span></div>
+        <div class="the-icons span3" title="Code: 0xe819"><i class="demo-icon lnr-checkmark-circle">&#xe819;</i> <span class="i-name">lnr-checkmark-circle</span><span class="i-code">0xe819</span></div>
+        <div class="the-icons span3" title="Code: 0xe81a"><i class="demo-icon lnr-chevron-down">&#xe81a;</i> <span class="i-name">lnr-chevron-down</span><span class="i-code">0xe81a</span></div>
+        <div class="the-icons span3" title="Code: 0xe81b"><i class="demo-icon lnr-chevron-down-circle">&#xe81b;</i> <span class="i-name">lnr-chevron-down-circle</span><span class="i-code">0xe81b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe81c"><i class="demo-icon lnr-chevron-left">&#xe81c;</i> <span class="i-name">lnr-chevron-left</span><span class="i-code">0xe81c</span></div>
+        <div class="the-icons span3" title="Code: 0xe81d"><i class="demo-icon lnr-chevron-left-circle">&#xe81d;</i> <span class="i-name">lnr-chevron-left-circle</span><span class="i-code">0xe81d</span></div>
+        <div class="the-icons span3" title="Code: 0xe81e"><i class="demo-icon lnr-chevron-right">&#xe81e;</i> <span class="i-name">lnr-chevron-right</span><span class="i-code">0xe81e</span></div>
+        <div class="the-icons span3" title="Code: 0xe81f"><i class="demo-icon lnr-chevron-right-circle">&#xe81f;</i> <span class="i-name">lnr-chevron-right-circle</span><span class="i-code">0xe81f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe820"><i class="demo-icon lnr-chevron-up">&#xe820;</i> <span class="i-name">lnr-chevron-up</span><span class="i-code">0xe820</span></div>
+        <div class="the-icons span3" title="Code: 0xe821"><i class="demo-icon lnr-chevron-up-circle">&#xe821;</i> <span class="i-name">lnr-chevron-up-circle</span><span class="i-code">0xe821</span></div>
+        <div class="the-icons span3" title="Code: 0xe822"><i class="demo-icon lnr-circle-minus">&#xe822;</i> <span class="i-name">lnr-circle-minus</span><span class="i-code">0xe822</span></div>
+        <div class="the-icons span3" title="Code: 0xe823"><i class="demo-icon lnr-clock">&#xe823;</i> <span class="i-name">lnr-clock</span><span class="i-code">0xe823</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe824"><i class="demo-icon lnr-cloud">&#xe824;</i> <span class="i-name">lnr-cloud</span><span class="i-code">0xe824</span></div>
+        <div class="the-icons span3" title="Code: 0xe825"><i class="demo-icon lnr-cloud-check">&#xe825;</i> <span class="i-name">lnr-cloud-check</span><span class="i-code">0xe825</span></div>
+        <div class="the-icons span3" title="Code: 0xe826"><i class="demo-icon lnr-cloud-download">&#xe826;</i> <span class="i-name">lnr-cloud-download</span><span class="i-code">0xe826</span></div>
+        <div class="the-icons span3" title="Code: 0xe827"><i class="demo-icon lnr-cloud-sync">&#xe827;</i> <span class="i-name">lnr-cloud-sync</span><span class="i-code">0xe827</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe828"><i class="demo-icon lnr-cloud-upload">&#xe828;</i> <span class="i-name">lnr-cloud-upload</span><span class="i-code">0xe828</span></div>
+        <div class="the-icons span3" title="Code: 0xe829"><i class="demo-icon lnr-code">&#xe829;</i> <span class="i-name">lnr-code</span><span class="i-code">0xe829</span></div>
+        <div class="the-icons span3" title="Code: 0xe82a"><i class="demo-icon lnr-coffee-cup">&#xe82a;</i> <span class="i-name">lnr-coffee-cup</span><span class="i-code">0xe82a</span></div>
+        <div class="the-icons span3" title="Code: 0xe82b"><i class="demo-icon lnr-cog">&#xe82b;</i> <span class="i-name">lnr-cog</span><span class="i-code">0xe82b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe82c"><i class="demo-icon lnr-construction">&#xe82c;</i> <span class="i-name">lnr-construction</span><span class="i-code">0xe82c</span></div>
+        <div class="the-icons span3" title="Code: 0xe82d"><i class="demo-icon lnr-crop">&#xe82d;</i> <span class="i-name">lnr-crop</span><span class="i-code">0xe82d</span></div>
+        <div class="the-icons span3" title="Code: 0xe82e"><i class="demo-icon lnr-cross">&#xe82e;</i> <span class="i-name">lnr-cross</span><span class="i-code">0xe82e</span></div>
+        <div class="the-icons span3" title="Code: 0xe82f"><i class="demo-icon lnr-cross-circle">&#xe82f;</i> <span class="i-name">lnr-cross-circle</span><span class="i-code">0xe82f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe830"><i class="demo-icon lnr-database">&#xe830;</i> <span class="i-name">lnr-database</span><span class="i-code">0xe830</span></div>
+        <div class="the-icons span3" title="Code: 0xe831"><i class="demo-icon lnr-diamond">&#xe831;</i> <span class="i-name">lnr-diamond</span><span class="i-code">0xe831</span></div>
+        <div class="the-icons span3" title="Code: 0xe832"><i class="demo-icon lnr-dice">&#xe832;</i> <span class="i-name">lnr-dice</span><span class="i-code">0xe832</span></div>
+        <div class="the-icons span3" title="Code: 0xe833"><i class="demo-icon lnr-dinner">&#xe833;</i> <span class="i-name">lnr-dinner</span><span class="i-code">0xe833</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe834"><i class="demo-icon lnr-direction-ltr">&#xe834;</i> <span class="i-name">lnr-direction-ltr</span><span class="i-code">0xe834</span></div>
+        <div class="the-icons span3" title="Code: 0xe835"><i class="demo-icon lnr-direction-rtl">&#xe835;</i> <span class="i-name">lnr-direction-rtl</span><span class="i-code">0xe835</span></div>
+        <div class="the-icons span3" title="Code: 0xe836"><i class="demo-icon lnr-download">&#xe836;</i> <span class="i-name">lnr-download</span><span class="i-code">0xe836</span></div>
+        <div class="the-icons span3" title="Code: 0xe837"><i class="demo-icon lnr-drop">&#xe837;</i> <span class="i-name">lnr-drop</span><span class="i-code">0xe837</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe838"><i class="demo-icon lnr-earth">&#xe838;</i> <span class="i-name">lnr-earth</span><span class="i-code">0xe838</span></div>
+        <div class="the-icons span3" title="Code: 0xe839"><i class="demo-icon lnr-enter">&#xe839;</i> <span class="i-name">lnr-enter</span><span class="i-code">0xe839</span></div>
+        <div class="the-icons span3" title="Code: 0xe83a"><i class="demo-icon lnr-enter-down">&#xe83a;</i> <span class="i-name">lnr-enter-down</span><span class="i-code">0xe83a</span></div>
+        <div class="the-icons span3" title="Code: 0xe83b"><i class="demo-icon lnr-envelope">&#xe83b;</i> <span class="i-name">lnr-envelope</span><span class="i-code">0xe83b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe83c"><i class="demo-icon lnr-exit">&#xe83c;</i> <span class="i-name">lnr-exit</span><span class="i-code">0xe83c</span></div>
+        <div class="the-icons span3" title="Code: 0xe83d"><i class="demo-icon lnr-exit-up">&#xe83d;</i> <span class="i-name">lnr-exit-up</span><span class="i-code">0xe83d</span></div>
+        <div class="the-icons span3" title="Code: 0xe83e"><i class="demo-icon lnr-eye">&#xe83e;</i> <span class="i-name">lnr-eye</span><span class="i-code">0xe83e</span></div>
+        <div class="the-icons span3" title="Code: 0xe83f"><i class="demo-icon lnr-file-add">&#xe83f;</i> <span class="i-name">lnr-file-add</span><span class="i-code">0xe83f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe840"><i class="demo-icon lnr-file-empty">&#xe840;</i> <span class="i-name">lnr-file-empty</span><span class="i-code">0xe840</span></div>
+        <div class="the-icons span3" title="Code: 0xe841"><i class="demo-icon lnr-film-play">&#xe841;</i> <span class="i-name">lnr-film-play</span><span class="i-code">0xe841</span></div>
+        <div class="the-icons span3" title="Code: 0xe842"><i class="demo-icon lnr-flag">&#xe842;</i> <span class="i-name">lnr-flag</span><span class="i-code">0xe842</span></div>
+        <div class="the-icons span3" title="Code: 0xe843"><i class="demo-icon lnr-frame-contract">&#xe843;</i> <span class="i-name">lnr-frame-contract</span><span class="i-code">0xe843</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe844"><i class="demo-icon lnr-frame-expand">&#xe844;</i> <span class="i-name">lnr-frame-expand</span><span class="i-code">0xe844</span></div>
+        <div class="the-icons span3" title="Code: 0xe845"><i class="demo-icon lnr-funnel">&#xe845;</i> <span class="i-name">lnr-funnel</span><span class="i-code">0xe845</span></div>
+        <div class="the-icons span3" title="Code: 0xe846"><i class="demo-icon lnr-gift">&#xe846;</i> <span class="i-name">lnr-gift</span><span class="i-code">0xe846</span></div>
+        <div class="the-icons span3" title="Code: 0xe847"><i class="demo-icon lnr-graduation-hat">&#xe847;</i> <span class="i-name">lnr-graduation-hat</span><span class="i-code">0xe847</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe848"><i class="demo-icon lnr-hand">&#xe848;</i> <span class="i-name">lnr-hand</span><span class="i-code">0xe848</span></div>
+        <div class="the-icons span3" title="Code: 0xe849"><i class="demo-icon lnr-heart">&#xe849;</i> <span class="i-name">lnr-heart</span><span class="i-code">0xe849</span></div>
+        <div class="the-icons span3" title="Code: 0xe84a"><i class="demo-icon lnr-highlight">&#xe84a;</i> <span class="i-name">lnr-highlight</span><span class="i-code">0xe84a</span></div>
+        <div class="the-icons span3" title="Code: 0xe84b"><i class="demo-icon lnr-history">&#xe84b;</i> <span class="i-name">lnr-history</span><span class="i-code">0xe84b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe84c"><i class="demo-icon lnr-heart-pulse">&#xe84c;</i> <span class="i-name">lnr-heart-pulse</span><span class="i-code">0xe84c</span></div>
+        <div class="the-icons span3" title="Code: 0xe84d"><i class="demo-icon lnr-home">&#xe84d;</i> <span class="i-name">lnr-home</span><span class="i-code">0xe84d</span></div>
+        <div class="the-icons span3" title="Code: 0xe84e"><i class="demo-icon lnr-hourglass">&#xe84e;</i> <span class="i-name">lnr-hourglass</span><span class="i-code">0xe84e</span></div>
+        <div class="the-icons span3" title="Code: 0xe84f"><i class="demo-icon lnr-inbox">&#xe84f;</i> <span class="i-name">lnr-inbox</span><span class="i-code">0xe84f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe850"><i class="demo-icon lnr-indent-decrease">&#xe850;</i> <span class="i-name">lnr-indent-decrease</span><span class="i-code">0xe850</span></div>
+        <div class="the-icons span3" title="Code: 0xe851"><i class="demo-icon lnr-indent-increase">&#xe851;</i> <span class="i-name">lnr-indent-increase</span><span class="i-code">0xe851</span></div>
+        <div class="the-icons span3" title="Code: 0xe852"><i class="demo-icon lnr-italic">&#xe852;</i> <span class="i-name">lnr-italic</span><span class="i-code">0xe852</span></div>
+        <div class="the-icons span3" title="Code: 0xe853"><i class="demo-icon lnr-keyboard">&#xe853;</i> <span class="i-name">lnr-keyboard</span><span class="i-code">0xe853</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe854"><i class="demo-icon lnr-laptop">&#xe854;</i> <span class="i-name">lnr-laptop</span><span class="i-code">0xe854</span></div>
+        <div class="the-icons span3" title="Code: 0xe855"><i class="demo-icon lnr-laptop-phone">&#xe855;</i> <span class="i-name">lnr-laptop-phone</span><span class="i-code">0xe855</span></div>
+        <div class="the-icons span3" title="Code: 0xe856"><i class="demo-icon lnr-layers">&#xe856;</i> <span class="i-name">lnr-layers</span><span class="i-code">0xe856</span></div>
+        <div class="the-icons span3" title="Code: 0xe857"><i class="demo-icon lnr-leaf">&#xe857;</i> <span class="i-name">lnr-leaf</span><span class="i-code">0xe857</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe858"><i class="demo-icon lnr-license">&#xe858;</i> <span class="i-name">lnr-license</span><span class="i-code">0xe858</span></div>
+        <div class="the-icons span3" title="Code: 0xe859"><i class="demo-icon lnr-lighter">&#xe859;</i> <span class="i-name">lnr-lighter</span><span class="i-code">0xe859</span></div>
+        <div class="the-icons span3" title="Code: 0xe85a"><i class="demo-icon lnr-linearicons">&#xe85a;</i> <span class="i-name">lnr-linearicons</span><span class="i-code">0xe85a</span></div>
+        <div class="the-icons span3" title="Code: 0xe85b"><i class="demo-icon lnr-line-spacing">&#xe85b;</i> <span class="i-name">lnr-line-spacing</span><span class="i-code">0xe85b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe85c"><i class="demo-icon lnr-link">&#xe85c;</i> <span class="i-name">lnr-link</span><span class="i-code">0xe85c</span></div>
+        <div class="the-icons span3" title="Code: 0xe85d"><i class="demo-icon lnr-list">&#xe85d;</i> <span class="i-name">lnr-list</span><span class="i-code">0xe85d</span></div>
+        <div class="the-icons span3" title="Code: 0xe85e"><i class="demo-icon lnr-location">&#xe85e;</i> <span class="i-name">lnr-location</span><span class="i-code">0xe85e</span></div>
+        <div class="the-icons span3" title="Code: 0xe85f"><i class="demo-icon lnr-lock">&#xe85f;</i> <span class="i-name">lnr-lock</span><span class="i-code">0xe85f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe860"><i class="demo-icon lnr-magic-wand">&#xe860;</i> <span class="i-name">lnr-magic-wand</span><span class="i-code">0xe860</span></div>
+        <div class="the-icons span3" title="Code: 0xe861"><i class="demo-icon lnr-magnifier">&#xe861;</i> <span class="i-name">lnr-magnifier</span><span class="i-code">0xe861</span></div>
+        <div class="the-icons span3" title="Code: 0xe862"><i class="demo-icon lnr-map">&#xe862;</i> <span class="i-name">lnr-map</span><span class="i-code">0xe862</span></div>
+        <div class="the-icons span3" title="Code: 0xe863"><i class="demo-icon lnr-map-marker">&#xe863;</i> <span class="i-name">lnr-map-marker</span><span class="i-code">0xe863</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe864"><i class="demo-icon lnr-menu">&#xe864;</i> <span class="i-name">lnr-menu</span><span class="i-code">0xe864</span></div>
+        <div class="the-icons span3" title="Code: 0xe865"><i class="demo-icon lnr-menu-circle">&#xe865;</i> <span class="i-name">lnr-menu-circle</span><span class="i-code">0xe865</span></div>
+        <div class="the-icons span3" title="Code: 0xe866"><i class="demo-icon lnr-mic">&#xe866;</i> <span class="i-name">lnr-mic</span><span class="i-code">0xe866</span></div>
+        <div class="the-icons span3" title="Code: 0xe867"><i class="demo-icon lnr-moon">&#xe867;</i> <span class="i-name">lnr-moon</span><span class="i-code">0xe867</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe868"><i class="demo-icon lnr-move">&#xe868;</i> <span class="i-name">lnr-move</span><span class="i-code">0xe868</span></div>
+        <div class="the-icons span3" title="Code: 0xe869"><i class="demo-icon lnr-music-note">&#xe869;</i> <span class="i-name">lnr-music-note</span><span class="i-code">0xe869</span></div>
+        <div class="the-icons span3" title="Code: 0xe86a"><i class="demo-icon lnr-mustache">&#xe86a;</i> <span class="i-name">lnr-mustache</span><span class="i-code">0xe86a</span></div>
+        <div class="the-icons span3" title="Code: 0xe86b"><i class="demo-icon lnr-neutral">&#xe86b;</i> <span class="i-name">lnr-neutral</span><span class="i-code">0xe86b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe86c"><i class="demo-icon lnr-page-break">&#xe86c;</i> <span class="i-name">lnr-page-break</span><span class="i-code">0xe86c</span></div>
+        <div class="the-icons span3" title="Code: 0xe86d"><i class="demo-icon lnr-paperclip">&#xe86d;</i> <span class="i-name">lnr-paperclip</span><span class="i-code">0xe86d</span></div>
+        <div class="the-icons span3" title="Code: 0xe86e"><i class="demo-icon lnr-paw">&#xe86e;</i> <span class="i-name">lnr-paw</span><span class="i-code">0xe86e</span></div>
+        <div class="the-icons span3" title="Code: 0xe86f"><i class="demo-icon lnr-pencil">&#xe86f;</i> <span class="i-name">lnr-pencil</span><span class="i-code">0xe86f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe870"><i class="demo-icon lnr-phone">&#xe870;</i> <span class="i-name">lnr-phone</span><span class="i-code">0xe870</span></div>
+        <div class="the-icons span3" title="Code: 0xe871"><i class="demo-icon lnr-phone-handset">&#xe871;</i> <span class="i-name">lnr-phone-handset</span><span class="i-code">0xe871</span></div>
+        <div class="the-icons span3" title="Code: 0xe872"><i class="demo-icon lnr-picture">&#xe872;</i> <span class="i-name">lnr-picture</span><span class="i-code">0xe872</span></div>
+        <div class="the-icons span3" title="Code: 0xe873"><i class="demo-icon lnr-pie-chart">&#xe873;</i> <span class="i-name">lnr-pie-chart</span><span class="i-code">0xe873</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe874"><i class="demo-icon lnr-pilcrow">&#xe874;</i> <span class="i-name">lnr-pilcrow</span><span class="i-code">0xe874</span></div>
+        <div class="the-icons span3" title="Code: 0xe875"><i class="demo-icon lnr-plus-circle">&#xe875;</i> <span class="i-name">lnr-plus-circle</span><span class="i-code">0xe875</span></div>
+        <div class="the-icons span3" title="Code: 0xe876"><i class="demo-icon lnr-pointer-down">&#xe876;</i> <span class="i-name">lnr-pointer-down</span><span class="i-code">0xe876</span></div>
+        <div class="the-icons span3" title="Code: 0xe877"><i class="demo-icon lnr-pointer-left">&#xe877;</i> <span class="i-name">lnr-pointer-left</span><span class="i-code">0xe877</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe878"><i class="demo-icon lnr-pointer-right">&#xe878;</i> <span class="i-name">lnr-pointer-right</span><span class="i-code">0xe878</span></div>
+        <div class="the-icons span3" title="Code: 0xe879"><i class="demo-icon lnr-pointer-up">&#xe879;</i> <span class="i-name">lnr-pointer-up</span><span class="i-code">0xe879</span></div>
+        <div class="the-icons span3" title="Code: 0xe87a"><i class="demo-icon lnr-poop">&#xe87a;</i> <span class="i-name">lnr-poop</span><span class="i-code">0xe87a</span></div>
+        <div class="the-icons span3" title="Code: 0xe87b"><i class="demo-icon lnr-power-switch">&#xe87b;</i> <span class="i-name">lnr-power-switch</span><span class="i-code">0xe87b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe87c"><i class="demo-icon lnr-printer">&#xe87c;</i> <span class="i-name">lnr-printer</span><span class="i-code">0xe87c</span></div>
+        <div class="the-icons span3" title="Code: 0xe87d"><i class="demo-icon lnr-pushpin">&#xe87d;</i> <span class="i-name">lnr-pushpin</span><span class="i-code">0xe87d</span></div>
+        <div class="the-icons span3" title="Code: 0xe87e"><i class="demo-icon lnr-question-circle">&#xe87e;</i> <span class="i-name">lnr-question-circle</span><span class="i-code">0xe87e</span></div>
+        <div class="the-icons span3" title="Code: 0xe87f"><i class="demo-icon lnr-redo">&#xe87f;</i> <span class="i-name">lnr-redo</span><span class="i-code">0xe87f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe880"><i class="demo-icon lnr-rocket">&#xe880;</i> <span class="i-name">lnr-rocket</span><span class="i-code">0xe880</span></div>
+        <div class="the-icons span3" title="Code: 0xe881"><i class="demo-icon lnr-sad">&#xe881;</i> <span class="i-name">lnr-sad</span><span class="i-code">0xe881</span></div>
+        <div class="the-icons span3" title="Code: 0xe882"><i class="demo-icon lnr-screen">&#xe882;</i> <span class="i-name">lnr-screen</span><span class="i-code">0xe882</span></div>
+        <div class="the-icons span3" title="Code: 0xe883"><i class="demo-icon lnr-select">&#xe883;</i> <span class="i-name">lnr-select</span><span class="i-code">0xe883</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe884"><i class="demo-icon lnr-shirt">&#xe884;</i> <span class="i-name">lnr-shirt</span><span class="i-code">0xe884</span></div>
+        <div class="the-icons span3" title="Code: 0xe885"><i class="demo-icon lnr-smartphone">&#xe885;</i> <span class="i-name">lnr-smartphone</span><span class="i-code">0xe885</span></div>
+        <div class="the-icons span3" title="Code: 0xe886"><i class="demo-icon lnr-smile">&#xe886;</i> <span class="i-name">lnr-smile</span><span class="i-code">0xe886</span></div>
+        <div class="the-icons span3" title="Code: 0xe887"><i class="demo-icon lnr-sort-alpha-asc">&#xe887;</i> <span class="i-name">lnr-sort-alpha-asc</span><span class="i-code">0xe887</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe888"><i class="demo-icon lnr-sort-amount-asc">&#xe888;</i> <span class="i-name">lnr-sort-amount-asc</span><span class="i-code">0xe888</span></div>
+        <div class="the-icons span3" title="Code: 0xe889"><i class="demo-icon lnr-spell-check">&#xe889;</i> <span class="i-name">lnr-spell-check</span><span class="i-code">0xe889</span></div>
+        <div class="the-icons span3" title="Code: 0xe88a"><i class="demo-icon lnr-star">&#xe88a;</i> <span class="i-name">lnr-star</span><span class="i-code">0xe88a</span></div>
+        <div class="the-icons span3" title="Code: 0xe88b"><i class="demo-icon lnr-star-empty">&#xe88b;</i> <span class="i-name">lnr-star-empty</span><span class="i-code">0xe88b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe88c"><i class="demo-icon lnr-star-half">&#xe88c;</i> <span class="i-name">lnr-star-half</span><span class="i-code">0xe88c</span></div>
+        <div class="the-icons span3" title="Code: 0xe88d"><i class="demo-icon lnr-store">&#xe88d;</i> <span class="i-name">lnr-store</span><span class="i-code">0xe88d</span></div>
+        <div class="the-icons span3" title="Code: 0xe88e"><i class="demo-icon lnr-strikethrough">&#xe88e;</i> <span class="i-name">lnr-strikethrough</span><span class="i-code">0xe88e</span></div>
+        <div class="the-icons span3" title="Code: 0xe88f"><i class="demo-icon lnr-sun">&#xe88f;</i> <span class="i-name">lnr-sun</span><span class="i-code">0xe88f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe890"><i class="demo-icon lnr-sync">&#xe890;</i> <span class="i-name">lnr-sync</span><span class="i-code">0xe890</span></div>
+        <div class="the-icons span3" title="Code: 0xe891"><i class="demo-icon lnr-tablet">&#xe891;</i> <span class="i-name">lnr-tablet</span><span class="i-code">0xe891</span></div>
+        <div class="the-icons span3" title="Code: 0xe892"><i class="demo-icon lnr-tag">&#xe892;</i> <span class="i-name">lnr-tag</span><span class="i-code">0xe892</span></div>
+        <div class="the-icons span3" title="Code: 0xe893"><i class="demo-icon lnr-text-align-center">&#xe893;</i> <span class="i-name">lnr-text-align-center</span><span class="i-code">0xe893</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe894"><i class="demo-icon lnr-text-align-justify">&#xe894;</i> <span class="i-name">lnr-text-align-justify</span><span class="i-code">0xe894</span></div>
+        <div class="the-icons span3" title="Code: 0xe895"><i class="demo-icon lnr-text-align-left">&#xe895;</i> <span class="i-name">lnr-text-align-left</span><span class="i-code">0xe895</span></div>
+        <div class="the-icons span3" title="Code: 0xe896"><i class="demo-icon lnr-text-align-right">&#xe896;</i> <span class="i-name">lnr-text-align-right</span><span class="i-code">0xe896</span></div>
+        <div class="the-icons span3" title="Code: 0xe897"><i class="demo-icon lnr-text-format">&#xe897;</i> <span class="i-name">lnr-text-format</span><span class="i-code">0xe897</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe898"><i class="demo-icon lnr-text-format-remove">&#xe898;</i> <span class="i-name">lnr-text-format-remove</span><span class="i-code">0xe898</span></div>
+        <div class="the-icons span3" title="Code: 0xe899"><i class="demo-icon lnr-text-size">&#xe899;</i> <span class="i-name">lnr-text-size</span><span class="i-code">0xe899</span></div>
+        <div class="the-icons span3" title="Code: 0xe89a"><i class="demo-icon lnr-thumbs-down">&#xe89a;</i> <span class="i-name">lnr-thumbs-down</span><span class="i-code">0xe89a</span></div>
+        <div class="the-icons span3" title="Code: 0xe89b"><i class="demo-icon lnr-thumbs-up">&#xe89b;</i> <span class="i-name">lnr-thumbs-up</span><span class="i-code">0xe89b</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe89c"><i class="demo-icon lnr-train">&#xe89c;</i> <span class="i-name">lnr-train</span><span class="i-code">0xe89c</span></div>
+        <div class="the-icons span3" title="Code: 0xe89d"><i class="demo-icon lnr-trash">&#xe89d;</i> <span class="i-name">lnr-trash</span><span class="i-code">0xe89d</span></div>
+        <div class="the-icons span3" title="Code: 0xe89e"><i class="demo-icon lnr-underline">&#xe89e;</i> <span class="i-name">lnr-underline</span><span class="i-code">0xe89e</span></div>
+        <div class="the-icons span3" title="Code: 0xe89f"><i class="demo-icon lnr-undo">&#xe89f;</i> <span class="i-name">lnr-undo</span><span class="i-code">0xe89f</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe8a0"><i class="demo-icon lnr-unlink">&#xe8a0;</i> <span class="i-name">lnr-unlink</span><span class="i-code">0xe8a0</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a1"><i class="demo-icon lnr-upload">&#xe8a1;</i> <span class="i-name">lnr-upload</span><span class="i-code">0xe8a1</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a2"><i class="demo-icon lnr-user">&#xe8a2;</i> <span class="i-name">lnr-user</span><span class="i-code">0xe8a2</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a3"><i class="demo-icon lnr-users">&#xe8a3;</i> <span class="i-name">lnr-users</span><span class="i-code">0xe8a3</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe8a4"><i class="demo-icon lnr-volume">&#xe8a4;</i> <span class="i-name">lnr-volume</span><span class="i-code">0xe8a4</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a5"><i class="demo-icon lnr-volume-high">&#xe8a5;</i> <span class="i-name">lnr-volume-high</span><span class="i-code">0xe8a5</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a6"><i class="demo-icon lnr-volume-low">&#xe8a6;</i> <span class="i-name">lnr-volume-low</span><span class="i-code">0xe8a6</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a7"><i class="demo-icon lnr-volume-medium">&#xe8a7;</i> <span class="i-name">lnr-volume-medium</span><span class="i-code">0xe8a7</span></div>
+      </div>
+      <div class="row">
+        <div class="the-icons span3" title="Code: 0xe8a8"><i class="demo-icon lnr-warning">&#xe8a8;</i> <span class="i-name">lnr-warning</span><span class="i-code">0xe8a8</span></div>
+        <div class="the-icons span3" title="Code: 0xe8a9"><i class="demo-icon lnr-wheelchair">&#xe8a9;</i> <span class="i-name">lnr-wheelchair</span><span class="i-code">0xe8a9</span></div>
+      </div>
+    </div>
+    <div class="container footer">Generated by <a href="http://fontello.com">fontello.com</a></div>
+  </body>
+</html>

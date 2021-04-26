@@ -1,0 +1,211 @@
+2020-08-08T00:34:20+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:40:27+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:40:30+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:47:05+00:00 CRITICAL Uncaught Error: Call to undefined method lessc::parseFile() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:77
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...')
+#8 /ho in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 77
+
+2020-08-08T00:47:08+00:00 CRITICAL Uncaught Error: Call to undefined method lessc::parseFile() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:77
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...')
+#8 /ho in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 77
+
+2020-08-08T00:48:02+00:00 CRITICAL Uncaught Error: Call to undefined method lessc_Parser::parseFile() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:77
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 77
+
+2020-08-08T00:48:05+00:00 CRITICAL Uncaught Error: Call to undefined method lessc_Parser::parseFile() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:77
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 77
+
+2020-08-08T00:48:50+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:48:52+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:49:47+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:49:49+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:49:55+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:49:57+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:53:50+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:53:51+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:53:56+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:53:57+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:54:44+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+
+2020-08-08T00:54:45+00:00 CRITICAL Uncaught Error: Call to a member function allParsedFiles() on null in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php:147
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php(152): jws_action_theme_generate_styles()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/include.php(23): require_once('/home/sevenwpt/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jwstheme_init('')
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#5 /home/sevenwpt/public_html/general02/ailab/wp-settings.php(540): do_action('init')
+#6 /home/sevenwpt/public_html/general02/ailab/wp-config.php(95): require_once('/home/sevenwpt/...')
+#7 /home/sevenwpt/public_html/general02/ailab/wp-load.php(37): require_once('/home/sevenwpt/...' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/presets.php on line 147
+

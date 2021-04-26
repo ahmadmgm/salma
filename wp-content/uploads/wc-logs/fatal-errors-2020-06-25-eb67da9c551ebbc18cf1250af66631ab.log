@@ -1,0 +1,14 @@
+2020-06-25T06:37:50+00:00 CRITICAL syntax error, unexpected ''jws-button,' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/css_inline.php on line 95
+
+2020-06-25T08:42:59+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php:121
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(2671): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(2879): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php on line 121
+

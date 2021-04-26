@@ -1,0 +1,14 @@
+2020-07-09T08:23:50+00:00 CRITICAL require_once(): Failed opening required '/home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-custom-review.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php on line 94
+
+2020-07-09T09:09:03+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php:122
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(2671): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(2879): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/functions.php on line 122
+

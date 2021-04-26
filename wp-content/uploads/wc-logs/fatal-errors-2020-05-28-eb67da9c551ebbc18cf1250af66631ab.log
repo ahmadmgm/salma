@@ -1,0 +1,37 @@
+2020-05-28T04:16:29+00:00 CRITICAL syntax error, unexpected 'protected' (T_PROTECTED) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 1284
+
+2020-05-28T04:22:30+00:00 CRITICAL syntax error, unexpected 'protected' (T_PROTECTED) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 1293
+
+2020-05-28T04:29:45+00:00 CRITICAL syntax error, unexpected ',' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 956
+
+2020-05-28T04:29:46+00:00 CRITICAL syntax error, unexpected ',' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 956
+
+2020-05-28T04:29:48+00:00 CRITICAL syntax error, unexpected ',' in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 956
+
+2020-05-28T05:01:18+00:00 CRITICAL Uncaught Error: Call to undefined method ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs::get_the_terms() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php:952
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php(685): ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs->render_breadcrumbs()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(661): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(668): Elementor\Widget_Base->_print_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/element in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 952
+
+2020-05-28T05:01:25+00:00 CRITICAL Uncaught Error: Call to undefined method ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs::get_the_terms() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php:952
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php(685): ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs->render_breadcrumbs()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\Jws_Breakscrumbs->render()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/base/document.php(218): Elementor\Widget_Base->render_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(297): Elementor\Core\Base\Document->render_element(Array)
+#4 /home/sevenwpt/public_html/general02/ail in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 952
+
+2020-05-28T06:03:17+00:00 CRITICAL Cannot use [] for reading in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-breadcrumbs.php on line 768
+
+2020-05-28T09:19:18+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Jws_tab' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php:156
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(288): ElementorHelloWorld\Plugin->register_widgets(Object(Elementor\Widgets_Manager))
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(312): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(99): do_action('elementor/widge...', Object(Elementor\Widgets_Manager))
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(235): Elementor\Widgets_Manager->init_widgets()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/elements/column.php(1026): Ele in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/plugin.php on line 156
+

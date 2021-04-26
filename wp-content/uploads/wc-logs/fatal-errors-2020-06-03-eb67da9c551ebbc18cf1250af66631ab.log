@@ -1,0 +1,127 @@
+2020-06-03T10:28:23+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Repeater' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:120
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+# in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 120
+
+2020-06-03T10:28:24+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Repeater' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:120
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+# in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 120
+
+2020-06-03T10:30:05+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Repeater' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:120
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+# in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 120
+
+2020-06-03T10:33:31+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Repeater' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:120
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Module))
+# in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 120
+
+2020-06-03T10:35:39+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Color' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:364
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Modul in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 364
+
+2020-06-03T10:39:43+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Color' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:365
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Modul in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 365
+
+2020-06-03T10:40:35+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Color' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:365
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Modul in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 365
+
+2020-06-03T10:41:56+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Color' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:381
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Modul in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 381
+
+2020-06-03T10:43:19+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Color' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:477
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\Modul in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 477
+
+2020-06-03T10:44:18+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Typography' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:513
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 513
+
+2020-06-03T10:44:57+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Schemes\Typography' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:513
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(1946): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->_register_controls()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/controls-stack.php(498): Elementor\Controls_Stack->init_controls()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(150): Elementor\Controls_Stack->get_stack()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(274): Elementor\Widget_Base->get_stack(false)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_get_widget_types_controls_config(Array, Object(Elementor\Core\Common\Modules\Ajax\ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 513
+
+2020-06-03T10:52:36+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:553
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/core/base/document.php(218): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/theme-builder/documents/theme-document.php(297): Elementor\Core\Base\Document->render_element(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/managers/widgets.php(323): ElementorPro\Modules\ThemeBuilder\Documents\Theme_Document->render_element(Array)
+#4 [internal function]: Elementor\Widgets_Manager->ajax_render_widget(Array, Object(Elemen in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 553
+
+2020-06-03T10:53:18+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:553
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(298): Elementor\Widget_Base->render_plain_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#5 /home/sevenwpt/public_ht in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 553
+
+2020-06-03T10:53:33+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:553
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(298): Elementor\Widget_Base->render_plain_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#5 /home/sevenwpt/public_ht in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 553
+
+2020-06-03T10:54:16+00:00 CRITICAL Uncaught Error: Class 'ElementorHelloWorld\Widgets\JwsCustom\Icons_Manager' not found in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php:553
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(531): ElementorHelloWorld\Widgets\JwsCustom\JWS_Menu_Liting->render()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(584): Elementor\Widget_Base->render_content()
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(298): Elementor\Widget_Base->render_plain_content()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/db.php(304): Elementor\DB->render_element_plain_content(Array)
+#5 /home/sevenwpt/public_ht in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/AILab/inc/widget_elementor/widgets/jws-custom/jws-menu-listing.php on line 553
+

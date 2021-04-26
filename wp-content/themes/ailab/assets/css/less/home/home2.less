@@ -1,0 +1,192 @@
+.custom-color-count.elementor-widget-counter .elementor-counter-title {
+  margin-top: 15px;
+  @media only screen and (max-width: 768px) {
+    margin-top: 5px;
+  }
+}
+.custom-color-count {
+    .elementor-counter-number-wrapper {
+        justify-content: center;
+    }
+    span.elementor-counter-number-suffix {
+        font-size: 24px;
+        line-height: 24px;
+    }
+    .elementor-counter .elementor-counter-number-prefix, .elementor-counter .elementor-counter-number-suffix {
+            -webkit-box-flex: unset;
+            -ms-flex-positive: unset;
+            flex-grow: unset;
+    }
+}
+.custom-color-count .elementor-counter-number-prefix {
+  display: none;
+}
+.custom-bt-home2 {
+  .elementor-widget-container {
+    background-size: 200%;
+    .elementor-button-text {
+      background-size: 200%;
+      .text-color-gradient();
+    }
+  }
+  &.elementor-element.elementor-widget-button a.elementor-button,
+  .elementor-widget-button .elementor-button {
+    background: #ffffff;
+  }
+}
+.elementor-widget-accordion .elementor-accordion .elementor-tab-title {
+  i {
+    font-size: 10px;
+  }
+  &:hover {
+    a,
+    i {
+      .transition(0.7s);
+    }
+  }
+  &.elementor-active {
+    a,
+    i {
+      .transition(0.7s);
+    }
+  }
+}
+.icon-gradient-main {
+  i {
+    color: black;
+    background-size: 200%;
+    .transition(0.5s);
+    overflow: hidden;
+    &::before {
+      background: #ffffff;
+      mix-blend-mode: screen;
+      margin: 0;
+    }
+    &:hover {
+      background-position: right;
+    }
+  }
+}
+
+//newsletter-home2
+@media only screen and (max-width: 767px) {
+  .newsletter-home2-footer.newsletter-home2 .wpcf7-form button {
+    position: absolute;
+    top: 4px;
+    right: 5px;
+    padding: 6px 20px !important;
+    width: 140px;
+    line-height: 28px !important;
+    height: auto;
+  }
+}
+.newsletter-slider{
+  .wpcf7-form {
+    label {
+      width: 100%;
+      margin:0;
+      input {
+        padding-right: 150px;
+        border: 1px solid #8e8ab2;
+        height: 50px;
+
+        @media only screen and (max-width: 767px) {
+          padding-right: 20px;
+        }
+      }
+    }
+    button {
+        position: absolute;
+        top: 50%;
+        .transform(translate(0, -50%));
+        right: 0;
+        margin-right: 5px;
+        padding: 6px 20px !important;
+        width: 140px;
+        line-height: 28px !important;
+        height: auto;
+        text-align: center;
+
+      &::after {
+        content: none;
+      }
+      
+        
+      
+    }
+    p {
+      margin-bottom: 0px;
+      position: relative;
+    }
+    .wpcf7-validation-errors {
+      margin-bottom: 0;
+    }
+  }
+}
+.newsletter-home2 {
+  .wpcf7-form {
+    ::-webkit-input-placeholder {
+      /* Edge */
+      color: #eeeeee;
+    }
+
+    :-ms-input-placeholder {
+      /* Internet Explorer 10-11 */
+      color: #eeeeee;
+    }
+
+    ::placeholder {
+      color: #eeeeee;
+    }
+    label {
+      width: 100%;
+      margin: 0;
+      input {
+        padding-right: 150px;
+        background: #0e112f;
+        border: none;
+
+        @media only screen and (max-width: 767px) {
+          padding-right: 20px;
+        }
+      }
+    }
+    button {
+      &:hover {
+        transform: translateY(0);
+      }
+      &::after {
+        content: none;
+      }
+      @media only screen and (min-width: 768px) {
+        position: absolute;
+        top: 4px;
+        right: 5px;
+        padding: 6px 20px !important;
+        width: 140px;
+        line-height: 28px !important;
+        height: auto;
+      }
+      @media only screen and (max-width: 767px) {
+        margin-top: 10px;
+      }
+    }
+    p {
+      margin-bottom: 0px;
+      position: relative;
+    }
+    .wpcf7-validation-errors {
+      margin-bottom: 0;
+    }
+  }
+}
+@media only screen and (max-width: 413px) {
+ .newsletter-home2 .wpcf7-form p {
+    height: auto;
+    text-align: center;
+  }
+  .newsletter-home2 button .wpcf7-form button {
+    position: initial;
+    margin-top: 10px;
+  }
+}

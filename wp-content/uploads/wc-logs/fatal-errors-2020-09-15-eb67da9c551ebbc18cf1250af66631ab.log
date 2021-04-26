@@ -1,0 +1,40 @@
+2020-09-15T03:44:29+00:00 CRITICAL syntax error, unexpected end of file in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/wc-template-function.php on line 36
+
+2020-09-15T03:45:13+00:00 CRITICAL Uncaught Error: Call to undefined function product_thumbnails() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php:67
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(660): Elementor\Widget_Base->render_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(644): Elementor\Widget_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-conten in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php on line 67
+
+2020-09-15T03:45:34+00:00 CRITICAL Uncaught Error: Call to undefined function product_thumbnails() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php:67
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(660): Elementor\Widget_Base->render_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(644): Elementor\Widget_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-conten in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php on line 67
+
+2020-09-15T03:46:10+00:00 CRITICAL Uncaught Error: Call to undefined function product_thumbnails() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php:67
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(660): Elementor\Widget_Base->render_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(644): Elementor\Widget_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-conten in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php on line 67
+
+2020-09-15T03:47:10+00:00 CRITICAL Uncaught Error: Call to undefined function product_thumbnails() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php:67
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/woocommerce/includes/wc-core-functions.php(344): include()
+#1 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor-pro/modules/woocommerce/widgets/product-images.php(155): wc_get_template('single-product/...')
+#2 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(530): ElementorPro\Modules\Woocommerce\Widgets\Product_Images->render()
+#3 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/widget-base.php(660): Elementor\Widget_Base->render_content()
+#4 /home/sevenwpt/public_html/general02/ailab/wp-content/plugins/elementor/includes/base/element-base.php(644): Elementor\Widget_Base->_print_content()
+#5 /home/sevenwpt/public_html/general02/ailab/wp-conten in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/woocommerce/single-product/product-image.php on line 67
+
+2020-09-15T09:30:28+00:00 CRITICAL syntax error, unexpected ''text_' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/widget_elementor/widgets/jws-custom/jws-case_study.php on line 986
+

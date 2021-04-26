@@ -1,0 +1,50 @@
+2020-09-11T06:57:41+00:00 CRITICAL syntax error, unexpected '/', expecting end of file in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php on line 238
+
+2020-09-11T06:57:43+00:00 CRITICAL syntax error, unexpected '/', expecting end of file in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php on line 238
+
+2020-09-11T08:05:37+00:00 CRITICAL require_once(): Failed opening required '/home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/admin/TGM-Plugin-Activation/class-tgm-plugin-activation.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/TGM-Plugin-Activation/plugin-option.php on line 34
+
+2020-09-11T08:05:39+00:00 CRITICAL require_once(): Failed opening required '/home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/admin/TGM-Plugin-Activation/class-tgm-plugin-activation.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/TGM-Plugin-Activation/plugin-option.php on line 34
+
+2020-09-11T08:06:00+00:00 CRITICAL require_once(): Failed opening required '/home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/admin/TGM-Plugin-Activation/class-tgm-plugin-activation.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/TGM-Plugin-Activation/plugin-option.php on line 34
+
+2020-09-11T09:09:39+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php:129
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(3006): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php on line 129
+
+2020-09-11T09:10:27+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php:129
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(3006): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php on line 129
+
+2020-09-11T09:10:34+00:00 CRITICAL syntax error, unexpected ''.footer-1 .elementor-widget-h' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/css_inline.php on line 525
+
+2020-09-11T09:10:55+00:00 CRITICAL Uncaught Error: Call to undefined function jws_custom_css() in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php:129
+Stack trace:
+#0 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): jws_scripts('')
+#1 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#2 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#3 /home/sevenwpt/public_html/general02/ailab/wp-includes/script-loader.php(1999): do_action('wp_enqueue_scri...')
+#4 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(287): wp_enqueue_scripts('')
+#5 /home/sevenwpt/public_html/general02/ailab/wp-includes/class-wp-hook.php(311): WP_Hook->apply_filters(NULL, Array)
+#6 /home/sevenwpt/public_html/general02/ailab/wp-includes/plugin.php(478): WP_Hook->do_action(Array)
+#7 /home/sevenwpt/public_html/general02/ailab/wp-includes/general-template.php(3006): do_action('wp_head')
+ in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/functions.php on line 129
+
+2020-09-11T09:11:31+00:00 CRITICAL syntax error, unexpected ''.footer-1 .elementor-widget-h' (T_ENCAPSED_AND_WHITESPACE) in /home/sevenwpt/public_html/general02/ailab/wp-content/themes/ailab/inc/css_inline.php on line 524
+
